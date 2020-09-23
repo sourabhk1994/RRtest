@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RrTest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_learner">Welcome To Learner</string>
+    <string name="learn_with_rnr">Learn with RNR</string>
+</resources>

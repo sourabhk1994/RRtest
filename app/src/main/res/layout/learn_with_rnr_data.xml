@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3"
+    android:id="@+id/dataCell"
+    android:layout_margin="@dimen/_15sdp"
+    android:background="@drawable/bottom_rounded_corners_no_background">
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_weight=".5"
+        android:id="@+id/subModuleImg"
+        android:src="@drawable/submodule_one"/>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_weight="2"
+        android:gravity="left"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center|left"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Why Invest"
+            android:id="@+id/title"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center|left"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Why Invest"
+            android:id="@+id/subtitle"/>
+    </LinearLayout>
+</LinearLayout>
